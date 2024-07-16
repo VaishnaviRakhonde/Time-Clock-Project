@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image:url("image2.png");
+    background-size: 250vh;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+.para{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#b3a7ff;
+    font-size: 50px;
+}
+.para2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #daa1ff;
+    font-size: 35px;
+}
+.clockvr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.clock-container {
+    height: 40vh;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 4, 10, 0.5);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border-radius: 100px;
+    border: 2px solid rgb(86, 154, 255);
+}
+#time {
+     font-size: 48px;
+     margin-bottom: 10px;
+}
+
+#date, #day {
+    font-size: 24px;
+}
+
+
